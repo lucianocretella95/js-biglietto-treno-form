@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css">
     <title>Train Ticket</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Biglietto treno</h1>
-    <h2 id="standard">Prezzo finale</h2>
-    <script src="./css/js/script.js"></script>
-</body>
+    <div>
+      <div>
+        <div>
+          <label for="age-input"> Età </label>
+        </div>
+        <input
+          id="age-input"
+          name="age"
+          type="number"
+          placeholder="Inserisci la tua età..."
+        />
+      </div>
+      <div>
+        <div>
+          <label for="age-input"> Quanti chilometri devi percorrere ?</label>
+        </div>
+        <input
+          id="km-input"
+          name="km"
+          type="number"
+          placeholder="Chilometri da percorrere"
+        />
+      </div>
+      <button id="price-button">prezzo Biglietto</button>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
